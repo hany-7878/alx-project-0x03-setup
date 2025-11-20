@@ -1,7 +1,8 @@
-export default function Home() {
+const Home = () => {
   return (
-    <div className="bg-blue-500 text-white p-4">
-      Tailwind is working!
-    </div>
-  );
-}
+   <div>
+    <h1> Welcome to Splash App </h1>
+   </div>
+)}
+
+export default Home;
